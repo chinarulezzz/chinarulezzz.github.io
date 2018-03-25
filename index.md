@@ -1,6 +1,6 @@
 # Welcome
 
-Hi, I'm Alexandr Savca, or chinarulez\*{,3} as some users know me.
+Hi, I'm Alexandr Savca ( qr/^chinarulez{1,3}$/ ), programmer, Free/Libre Open Source Software enthusiast, CRUX Linux user, suckless/KISS software fan.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
