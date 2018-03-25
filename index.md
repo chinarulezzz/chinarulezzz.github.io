@@ -1,10 +1,8 @@
 # Welcome
 
-Hi,
-I'm Alexandr Savca, or chinarulez\* as some users know me.
+Hi, I'm Alexandr Savca, or chinarulez\*{,3} as some users know me.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
-
 
 ___
 
