@@ -31,7 +31,7 @@ It was written for educational purposes.
 
 Also written for educational purposes :)
 
-*NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks current captcha cracking.  I have no time and desire to add support of the javascript engine.*
+*NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine. Now.*
 
 
 ___
@@ -41,7 +41,7 @@ ___
 
 ##### Ports
 
-I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in [my local git repo](https://github.com/chinarulezzz/chruxzzz).
+I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in [my git repo](https://github.com/chinarulezzz/chruxzzz).
 
 ##### Patches
 
