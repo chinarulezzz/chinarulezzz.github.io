@@ -74,6 +74,28 @@ ___
 
 ### Other stuff
 
+##### Forks
+
+Some patches for these forks I found on the network, some wrote myself.
+
+* [dmenu](https://github.com/chinarulezzz/dmenu-4.5) -- is an efficient dynamic menu for X.
+
+* [dwm](https://github.com/chinarulezzz/dwm-6.0) -- extremely fast, small, and dynamic window manager for X.
+
+* [gmusicbrowser](https://github.com/chinarulezzz/gmusicbrowser-crz) -- jukebox for large collections of music.
+
+##### Utilities
+
+* [repqlite](https://github.com/chinarulezzz/repqlite)
+
+This is a utility for replicating SQLite DB's through monitoring filesystem events (inotify).  Wrote for learning SQLite internals / programming under Linux.
+
+* [xkbswitch](https://github.com/chinarulezzz/xkbswitch)
+
+Utility to set/get current keyboard layout in Xorg.  I wrote it for [my dmenu fork](https://github.com/chinarulezzz/dmenu-4.5), to switch to latin keyboard layout before starting input, and restore previous layout after.
+
+##### A little help to other projects
+
 Some little fixes to other projects:
 
 * [sbotools](https://github.com/pink-mist/sbotools/pulls?utf8=%E2%9C%93&q=author%3Achinarulezzz)
