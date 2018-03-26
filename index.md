@@ -17,6 +17,8 @@ My [contributions to Wireshark](https://github.com/wireshark/wireshark/commits?a
 
 [NSE] New script [oracle-vuln-tns-poison](https://github.com/chinarulezzz/nmap/commit/a4ca35482aca2011b92a5b3264a3a60cefd895a6) checks for the TNS Poison vulnerability in ORACLE database servers.
 
+[NSE] Fix for oracle-tns-version which was sending an invalid TNS probe due to a string escaping mixup. [GH#716](https://github.com/nmap/nmap/commit/b30c304a2dc440f17c9a3a25061fae5730492ada)
+
 ### Wxp78key
 
 [Tiny keylogger](https://github.com/chinarulezzz/wxp78key) for Windows XP/Vista/7/8 with FTP upload.
