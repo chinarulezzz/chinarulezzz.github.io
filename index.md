@@ -1,6 +1,6 @@
 # Welcome
 
-Hi, I'm Alexandr Savca ( qr/^chinarulez{1,3}$/ ), programmer, Free/Libre Open Source Software enthusiast, CRUX Linux user, suckless/KISS software fan.
+Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, Free/Libre Open Source Software enthusiast, CRUX Linux user, suckless/KISS software fan.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
@@ -15,9 +15,9 @@ My [contributions to Wireshark](https://github.com/wireshark/wireshark/commits?a
 
 ### Nmap
 
-[NSE] New script [oracle-vuln-tns-poison](https://github.com/chinarulezzz/nmap/commit/a4ca35482aca2011b92a5b3264a3a60cefd895a6) checks for the TNS Poison vulnerability in ORACLE database servers.
+*[NSE]* New script [oracle-vuln-tns-poison](https://github.com/chinarulezzz/nmap/commit/a4ca35482aca2011b92a5b3264a3a60cefd895a6) checks for the TNS Poison vulnerability in ORACLE database servers.
 
-[NSE] Fix for oracle-tns-version which was sending an invalid TNS probe due to a string escaping mixup. [GH#716](https://github.com/nmap/nmap/commit/b30c304a2dc440f17c9a3a25061fae5730492ada)
+*[NSE]* Fix for oracle-tns-version which was sending an invalid TNS probe due to a string escaping mixup. [GH#716](https://github.com/nmap/nmap/commit/b30c304a2dc440f17c9a3a25061fae5730492ada)
 
 ### Wxp78key
 
@@ -31,7 +31,7 @@ It was written for educational purposes.
 
 Also written for educational purposes :)
 
-*NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine. Now.*
+*NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine.*
 
 
 ___
@@ -45,13 +45,11 @@ I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in [my gi
 
 ##### Patches
 
-* [rejmerge colordiff](https://raw.githubusercontent.com/chinarulezzz/scriptzzz/master/rejmerge.conf)
-
-Display colorized diff's if colordiff utility is installed. Replace your local /etc/rejmerge.conf file.
+* [rejmerge colordiff](https://raw.githubusercontent.com/chinarulezzz/scriptzzz/master/rejmerge.conf) -- display colorized diff's if colordiff utility is installed. Replace your local /etc/rejmerge.conf file.
 
 * [depcheck](https://github.com/chinarulezzz/prt-get/commit/992e78c17d3829b5b46e498e273799d62c0af954)
 
-```
+```shell
 ┌─[ root@kaveri in /usr/src/prt-get-local ]
 └─# ./src/prt-get help | grep depcheck -A 3
   depcheck         [opt]                           check for missing dependencies of installed ports
@@ -62,7 +60,7 @@ Display colorized diff's if colordiff utility is installed. Replace your local /
 
 * [sync](https://github.com/chinarulezzz/prt-get/commit/132fbc85c00542469adecd2152de025ed34d8b3b)
 
-```
+```shell
 ┌─[ root@kaveri in /usr/src/prt-get-local ]
 └─# ./src/prt-get help | grep sync
   sync             [<collection1 collection2...>]  update ports collections
@@ -86,27 +84,17 @@ Some patches for these forks I found on the network, some wrote myself.
 
 ##### Software
 
-* [repqlite](https://github.com/chinarulezzz/repqlite)
+* [repqlite](https://github.com/chinarulezzz/repqlite) -- this is a utility for replicating SQLite DB's through monitoring filesystem events (inotify).  Wrote for learning SQLite internals / programming under Linux.
 
-This is a utility for replicating SQLite DB's through monitoring filesystem events (inotify).  Wrote for learning SQLite internals / programming under Linux.
-
-* [xkbswitch](https://github.com/chinarulezzz/xkbswitch)
-
-Utility to set/get current keyboard layout in Xorg.  I wrote it for [my dmenu fork](https://github.com/chinarulezzz/dmenu-4.5), to switch to latin keyboard layout before starting input, and restore the previous layout after.
+* [xkbswitch](https://github.com/chinarulezzz/xkbswitch) -- utility to set/get current keyboard layout in Xorg.  I wrote it for [my dmenu fork](https://github.com/chinarulezzz/dmenu-4.5), to switch to latin keyboard layout before starting input, and restore the previous layout after.
 
 ##### A little help to other projects
 
-* [sbotools](https://github.com/pink-mist/sbotools/pulls?utf8=%E2%9C%93&q=author%3Achinarulezzz)
+* [sbotools](https://github.com/pink-mist/sbotools/pulls?utf8=%E2%9C%93&q=author%3Achinarulezzz) -- sbotools provides a ports-like interface to slackbuilds.org.
 
-sbotools provides a ports-like interface to slackbuilds.org.
+* [zlog](https://github.com/HardySimpson/zlog/pull/106/commits) -- zlog is a reliable, high-performance, thread safe, flexible, clear-model, pure C logging library.
 
-* [zlog](https://github.com/HardySimpson/zlog/pull/106/commits)
-
-zlog is a reliable, high-performance, thread safe, flexible, clear-model, pure C logging library.
-
-* [aeon](https://github.com/aeonix/aeon/pull/109/commits/612ed013f0b774e2e4cd8694db1ec7c06154734f)
-
-AEON is a private, secure, untraceable currency.
+* [aeon](https://github.com/aeonix/aeon/pull/109/commits/612ed013f0b774e2e4cd8694db1ec7c06154734f) -- AEON is a private, secure, untraceable currency.
 
 * voidlinux[[1]](https://github.com/voidlinux/void-runit/pull/47)[[2]](https://github.com/voidlinux/void-packages/commits?author=chinarulezzz)
 
