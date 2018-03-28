@@ -50,8 +50,7 @@ I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in [my gi
 * [depcheck](https://github.com/chinarulezzz/prt-get/commit/992e78c17d3829b5b46e498e273799d62c0af954)
 
 ```shell
-┌─[ root@kaveri in /usr/src/prt-get-local ]
-└─# ./src/prt-get help | grep depcheck -A 3
+# prt-get help | grep depcheck -A 3
   depcheck         [opt]                           check for missing dependencies of installed ports
       where opt can be:
            --deps                                  list only dependencies in simple format
@@ -61,8 +60,7 @@ I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in [my gi
 * [sync](https://github.com/chinarulezzz/prt-get/commit/132fbc85c00542469adecd2152de025ed34d8b3b)
 
 ```shell
-┌─[ root@kaveri in /usr/src/prt-get-local ]
-└─# ./src/prt-get help | grep sync
+# prt-get help | grep sync
   sync             [<collection1 collection2...>]  update ports collections
 ```
 
