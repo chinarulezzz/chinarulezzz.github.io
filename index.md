@@ -63,7 +63,7 @@ $ cd contrib ; git shortlog  --author="Alexandr Savca"
 
 * [depcheck](https://github.com/chinarulezzz/prt-get/commit/992e78c17d3829b5b46e498e273799d62c0af954)
 
-<div style="font-size: 10px">
+<font size="10">
 
 ```ShellSession
 # prt-get help | grep depcheck -A 3
@@ -73,7 +73,7 @@ $ cd contrib ; git shortlog  --author="Alexandr Savca"
            --ports                                 list only ports that have missing dependencies in simple format
 ```
 
-</div>
+</font>
 
 * [sync](https://github.com/chinarulezzz/prt-get/commit/132fbc85c00542469adecd2152de025ed34d8b3b)
 
