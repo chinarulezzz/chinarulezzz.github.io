@@ -82,8 +82,9 @@ $ cd contrib ; git shortlog  --author="Alexandr Savca"
 ___
 
 
-### ┌─[ Other Stuff ]
-### └─> Forks
+### <center> [ Other Stuff ] </center>
+
+### Forks
 
 Some patches for these forks I found on the network, some wrote myself.
 
