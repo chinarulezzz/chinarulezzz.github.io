@@ -4,6 +4,11 @@ Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS en
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
+##### Contact
+
+Alexandr Savca,  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
+
+
 ___
 
 
@@ -11,7 +16,7 @@ ___
 
 My [contributions to Wireshark](https://github.com/wireshark/wireshark/commits?author=chinarulezzz) (network protocol analyzer).
 
-*NOTE: Improve support of ORACLE protocols*
+*NOTE: Reversing and improving support for ORACLE protocol*
 
 ### Nmap
 
@@ -39,7 +44,7 @@ ___
 
 ### CRUX
 
-##### Ports
+### Ports
 
 I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in
 
@@ -52,7 +57,7 @@ $ cd contrib ; git shortlog  --author="Alexandr Savca"
 
 * [my git repo](https://github.com/chinarulezzz/chruxzzz)
 
-##### Patches
+### Patches
 
 * [rejmerge colordiff](https://raw.githubusercontent.com/chinarulezzz/scriptzzz/master/rejmerge.conf) -- display colorized diff's if colordiff utility is installed. Replace your local /etc/rejmerge.conf file.
 
@@ -111,4 +116,3 @@ ___
 
 ## Contact
 
-Alexandr Savca,  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
