@@ -1,6 +1,6 @@
 # Welcome
 
-Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS enthusiast, CRUX user, K.I.S.S/NJ style/Suckless software fan.
+Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS enthusiast, CRUX user, KISS/NJ style/suckless software fan.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
@@ -41,11 +41,16 @@ ___
 
 ##### Ports
 
-I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in [contrib](https://crux.nu/gitweb/?p=ports/contrib.git;a=summary) and [my git repo](https://github.com/chinarulezzz/chruxzzz).
+I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in
 
-*NOTE: to see contrib commits, clone the repo and type ```
-git shortlog  --author="Alexandr Savca"
-```*
+* [contrib](https://crux.nu/gitweb/?p=ports/contrib.git;a=summary)
+
+```ShellSession
+$ git clone git://crux.nu/ports/contrib.git
+$ cd contrib ; git shortlog  --author="Alexandr Savca"
+```
+
+* [my git repo](https://github.com/chinarulezzz/chruxzzz)
 
 ##### Patches
 
