@@ -82,9 +82,8 @@ $ cd contrib ; git shortlog  --author="Alexandr Savca"
 ___
 
 
-### Other stuff
-
-##### Forks
+### ┌─[ Other Stuff ]
+### └─> Forks
 
 Some patches for these forks I found on the network, some wrote myself.
 
@@ -94,13 +93,13 @@ Some patches for these forks I found on the network, some wrote myself.
 
 * [gmusicbrowser](https://github.com/chinarulezzz/gmusicbrowser-crz) -- jukebox for large collections of music.
 
-##### Software
+### Software
 
 * [repqlite](https://github.com/chinarulezzz/repqlite) -- this is a utility for replicating SQLite DB's through monitoring filesystem events (inotify).  Wrote for learning SQLite internals / programming under Linux.
 
 * [xkbswitch](https://github.com/chinarulezzz/xkbswitch) -- utility to set/get current keyboard layout in Xorg.  I wrote it for [my dmenu fork](https://github.com/chinarulezzz/dmenu-4.5), to switch to latin keyboard layout before starting input, and restore the previous layout after.
 
-##### A little help to other projects
+### A little help to other projects
 
 * [sbotools](https://github.com/pink-mist/sbotools/pulls?utf8=%E2%9C%93&q=author%3Achinarulezzz) -- sbotools provides a ports-like interface to slackbuilds.org.
 
@@ -109,10 +108,4 @@ Some patches for these forks I found on the network, some wrote myself.
 * [aeon](https://github.com/aeonix/aeon/pull/109/commits/612ed013f0b774e2e4cd8694db1ec7c06154734f) -- AEON is a private, secure, untraceable currency.
 
 * voidlinux[[1]](https://github.com/voidlinux/void-runit/pull/47)[[2]](https://github.com/voidlinux/void-packages/commits?author=chinarulezzz)
-
-
-___
-
-
-## Contact
 
