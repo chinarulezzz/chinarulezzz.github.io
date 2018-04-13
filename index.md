@@ -6,9 +6,9 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 
 ##### Contact
 
-e-mail  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
+**e-mail**  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
 
-irc     chinarulezzz on freenode
+**irc**     chinarulezzz on freenode
 
 
 ___
