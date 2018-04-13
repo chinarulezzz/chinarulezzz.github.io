@@ -6,7 +6,8 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 
 ##### Contact
 
-Alexandr Savca,  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
+e-mail  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
+irc     chinarulezzz on freenode
 
 
 ___
@@ -14,7 +15,12 @@ ___
 
 ### Wireshark
 
-My [contributions to Wireshark](https://github.com/wireshark/wireshark/commits?author=chinarulezzz) (network protocol analyzer).
+My [contributions to Wireshark](https://code.wireshark.org/review/gitweb?p=wireshark.git&a=search&h=HEAD&st=author&s=chinarulezzz%7CAlexandr.Savca&sr=1)(network protocol analyzer).
+
+```ShellSession
+$ cd wireshark-git-repo
+$ git shortlog --author="Alexandr Savca" --author="chinarulezzz"
+```
 
 *NOTE: Reversing and improving support for ORACLE protocol*
 
@@ -50,8 +56,8 @@ I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in
 
 * [contrib](https://crux.nu/gitweb/?p=ports/contrib.git;a=summary)
 ```ShellSession
-$ git clone git://crux.nu/ports/contrib.git
-$ cd contrib ; git shortlog  --author="Alexandr Savca"
+$ cd crux-contrib-git-repo
+$ git shortlog --author="Alexandr Savca"
 ```
 
 * [my git repo](https://github.com/chinarulezzz/chruxzzz)
