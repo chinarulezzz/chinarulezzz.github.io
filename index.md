@@ -6,8 +6,14 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 
 ##### Contact
 
-e-mail  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
-irc     chinarulezzz on freenode
+<tr>
+<td>e-mail</td>
+<td>alexandr[**dot**]savca89[**at**]gmail[**dot**]com</td>
+</tr>
+<tr>
+<td>irc</td>
+<td>chinarulezzz@freenode</td>
+</tr>
 
 
 ___
