@@ -1,6 +1,6 @@
 # Welcome
 
-Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS enthusiast, CRUX user, KISS/NJ style/suckless software fan.
+Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS enthusiast, CRUX Linux user-contributor, KISS/NJ style/suckless software fan.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
@@ -8,7 +8,7 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 
 **e-mail**  alexandr[**dot**]savca89[**at**]gmail[**dot**]com
 
-**irc**     chinarulezzz on freenode
+**irc**     chinarulezzz **@** freenode.net
 
 
 ___
@@ -16,14 +16,14 @@ ___
 
 ### Wireshark
 
-My [contributions to Wireshark](https://code.wireshark.org/review/gitweb?p=wireshark.git&a=search&h=HEAD&st=author&s=chinarulezzz%7CAlexandr.Savca&sr=1)(network protocol analyzer).
+My [contributions to Wireshark](https://code.wireshark.org/review/gitweb?p=wireshark.git&a=search&h=HEAD&st=author&s=chinarulezzz%7CAlexandr.Savca&sr=1) (network protocol analyzer).
 
 ```ShellSession
 $ cd wireshark-git-repo
 $ git shortlog --author="Alexandr Savca" --author="chinarulezzz"
 ```
 
-*NOTE: Reversing and improving support for ORACLE protocol*
+*NOTE: Reversing and improving support for ORACLE protocol, little bugfixes*
 
 ### Nmap
 
@@ -55,7 +55,7 @@ ___
 
 I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in
 
-* [contrib](https://crux.nu/gitweb/?p=ports/contrib.git;a=summary)
+* [crux contrib repo](https://crux.nu/gitweb/?p=ports/contrib.git;a=summary)
 ```ShellSession
 $ cd crux-contrib-git-repo
 $ git shortlog --author="Alexandr Savca"
@@ -76,6 +76,10 @@ ___
 
 
 ### <center> [ Other Stuff ] </center>
+
+### Rtfm
+
+* [Some notes](https://github.com/chinarulezzz/chinarulezzz.github.io/miningrig.md) that need to known, if you're going to build **mining rig**
 
 ### Forks
 
