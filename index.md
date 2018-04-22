@@ -77,10 +77,6 @@ ___
 
 ### <center> [ Other Stuff ] </center>
 
-### Rtfm
-
-* [Some notes](https://github.com/chinarulezzz/chinarulezzz.github.io/miningrig.md) that need to known, if you're going to build **mining rig**
-
 ### Forks
 
 Some patches for these forks I found on the network, some wrote myself.
