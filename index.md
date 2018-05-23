@@ -1,6 +1,6 @@
 # Welcome
 
-Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS enthusiast, CRUX Linux user-contributor, KISS/NJ style/suckless software fan.
+Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**, programmer, FLOSS enthusiast, CRUX Linux user-contributor, {KISS, NJ Style, Suckless} software fan.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
