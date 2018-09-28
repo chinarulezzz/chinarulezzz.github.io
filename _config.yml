@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: chinarulezzz - personal page
-
+logo: /assets/img/logo.jpg
 defaults:
     -
         scope:
