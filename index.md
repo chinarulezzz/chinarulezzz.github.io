@@ -46,32 +46,6 @@ Also written for educational purposes :)
 ___
 
 
-### <center> [ CRUX ] </center>
-
-### Ports
-
-I'm a user of [CRUX](https://crux.nu) and actively maintain some ports in
-
-* [crux contrib repo](https://crux.nu/gitweb/?p=ports/contrib.git;a=summary)
-```ShellSession
-$ cd crux-contrib-git-repo
-$ git shortlog --author="Alexandr Savca"
-```
-
-* [my git repo](https://github.com/chinarulezzz/chruxzzz)
-
-### Patches
-
-* [rejmerge colordiff](https://raw.githubusercontent.com/chinarulezzz/scriptzzz/master/rejmerge.conf) -- display colorized diff's if colordiff utility is installed. Replace your local /etc/rejmerge.conf file.
-
-* [depcheck](https://github.com/chinarulezzz/prt-get/commit/992e78c17d3829b5b46e498e273799d62c0af954) -- check for missing dependencies of installed ports. See **<** ``` $ prt-get help | grep depcheck -A3 ``` **>** for more help.
-
-* [sync](https://github.com/chinarulezzz/prt-get/commit/132fbc85c00542469adecd2152de025ed34d8b3b) -- update ports collections (without needing of **'ports -u'**). See **<** ``` $ prt-get help | grep sync ``` **>** for more help.
-
-
-___
-
-
 ### <center> [ Other Stuff ] </center>
 
 ### Forks
