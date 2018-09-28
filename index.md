@@ -10,7 +10,6 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 | IRC   | chinarulezzz [**at**] freenode [**dot**] net			|
 | PGP   | [download here](https://raw.githubusercontent.com/chinarulezzz/chinarulezzz.github.io/master/assets/pgp-key.asc) |
 
-___
 
 ### <center> [ Projects ] </center>
 
@@ -57,6 +56,8 @@ Some patches for these forks I found on the network, some wrote myself.
 * [dwm](https://github.com/chinarulezzz/dwm-6.0) -- extremely fast, small, and dynamic window manager for X.
 
 * [gmusicbrowser](https://github.com/chinarulezzz/gmusicbrowser-crz) -- jukebox for large collections of music.
+
+* [active-cve-check](https://github.com/chinarulezzz/active-cve-check) -- checks a list of packages against the "active" (not yet patched) CVE's as listed in the Ubuntu CVE Tracker.
 
 ### Software
 
