@@ -8,7 +8,7 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 |||
 | EMAIL | alexandr [**dot**] savca89 [**at**] gmail [**dot**] com	|
 | IRC   | chinarulezzz [**at**] freenode [**dot**] net			|
-| PGP   | http://chinarulez.fun/pgp-key.asc				|
+| PGP   | [download here](https://raw.githubusercontent.com/chinarulezzz/chinarulezzz.github.io/master/assets/pgp-key.asc) |
 
 ___
 
