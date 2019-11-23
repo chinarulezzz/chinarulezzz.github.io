@@ -1,13 +1,13 @@
 # Welcome
 
-Hi, I'm Alexandr Savca **(** *qr/^chinarulez{1,3}$/* **)**.
-Programmer && FLOSS enthusiast && *qr/KISS|NJ Style|Suckless/* software fan.
+Hi, I'm Alexandr Savca **(** *qr/^chinarulez{,3}$/* **)**.
+CRUX Linux user && programmer && FLOSS enthusiast && *qr/KISS|NJ Style|Suckless/* software fan.
 
 The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
 
 |||
-| EMAIL | alexandr [**dot**] savca89 [**at**] gmail [**dot**] com	|
-| IRC   | chinarulezzz [**at**] freenode [**dot**] net			|
+| EMAIL | drop [**at**] chinarulezzz [**dot**] fun      |
+| IRC   | chinarulezzz [**at**] freenode [**dot**] net  |
 | PGP   | [download here](https://raw.githubusercontent.com/chinarulezzz/chinarulezzz.github.io/master/assets/pgp-key.asc) |
 
 
@@ -20,6 +20,16 @@ My [contributions to Wireshark](https://code.wireshark.org/review/gitweb?p=wires
 `$ git shortlog --author="Alexandr Savca" --author="chinarulezzz"`
 
 *NOTE: Reversing and improving support for ORACLE protocol, little bugfixes*
+
+### Linux Kernel
+
+* [Add ELAN0618 to the list of supported touchpads](https://lore.kernel.org/patchwork/patch/958003/); this ID is used in Lenovo v330 15IKB devices.
+
+* A [collection of patches](https://github.com/chinarulezzz/linux-wifi-pentest-patches) for the vanilla linux kernel, useful for pentesters and security engineers.
+
+### Pixload
+
+A [set of tools](https://github.com/chinarulezzz/pixload) for creating/injecting payloads/backdoors into jpg/gif/png/bmp images.
 
 ### Nmap
 
@@ -41,37 +51,36 @@ Also written for educational purposes :)
 
 *NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine.*
 
+### chruxzzz
 
+[CRUX ports](https://github.com/chinarulezzz/chruxzzz) supported by me.
 ___
 
 
 ### <center> [ Other Stuff ] </center>
 
-### Forks
+### Forkz
 
-Some patches for these forks I found on the network, some wrote myself.
+* [refluxion](https://github.com/chinarulezzz/refluxion) -- MITM WPA{,2} attack tool. The main difference is that refluxion allows to deauthenticate (by "Handshake Snooper" or "Captive Portal" attack) specifiс client of Access Point. Sometimes it's necessary to not disconnecting all clients from the AP, but only one (the most vulnerable from the point of view of Social Engineering).
 
-* [xbattbar](https://github.com/chinarulezzz/xbattbar) -- battery status monitor for X.
+* [IPObfuscator](https://github.com/chinarulezzz/IPObfuscator) -- A simple tool to convert the IP to different obfuscated forms for pentesting purposes.
 
-* [dwm](https://github.com/chinarulezzz/dwm-6.0) -- extremely fast, small, and dynamic window manager for X.
-
-* [gmusicbrowser](https://github.com/chinarulezzz/gmusicbrowser-crz) -- jukebox for large collections of music.
+* [spoofcheck](https://github.com/chinarulezzz/spoofcheck) -- A program that checks if a domain can be spoofed from. The program checks SPF and DMARC records for weak configurations that allow spoofing.
 
 * [active-cve-check](https://github.com/chinarulezzz/active-cve-check) -- checks a list of packages against the "active" (not yet patched) CVE's as listed in the Ubuntu CVE Tracker.
 
-### Software
+My linux DE:
+
+* [dwm](https://github.com/chinarulezzz/dwm-6.0) -- extremely fast, small, and dynamic window manager for X. Personal fork.
+
+* [gmusicbrowser](https://github.com/chinarulezzz/gmusicbrowser-crz) -- my version of gmusicbrowser with some [patches](https://github.com/chinarulezzz/gmusicbrowser_patches).
+
+### Softz
 
 * [repqlite](https://github.com/chinarulezzz/repqlite) -- this is a utility for replicating SQLite DB's through monitoring filesystem events (inotify).  Wrote for learning SQLite internals / programming under Linux.
 
 * [xkbswitch](https://github.com/chinarulezzz/xkbswitch) -- utility to set/get current keyboard layout in Xorg.  I wrote it for dmenu-like software, to switch to latin keyboard layout before starting input, and restore the previous layout after.
 
-### A little help to other projects
+* [xbattbar-se](https://github.com/chinarulezzz/xbattbar-se) -- suckless battery/UPS/AC/DC power watcher for X11.
 
-* [linux](https://patchwork.kernel.org/patch/10476603/) -- patch: add ELAN0618 (Lenovo v330 15IKB) ACPI ID.
-
-* [sbotools](https://github.com/pink-mist/sbotools/pulls?utf8=%E2%9C%93&q=author%3Achinarulezzz) -- sbotools provides a ports-like interface to slackbuilds.org.
-
-* [zlog](https://github.com/HardySimpson/zlog/pull/106/commits) -- zlog is a reliable, high-performance, thread safe, flexible, clear-model, pure C logging library.
-
-* [aeon](https://github.com/aeonix/aeon/pull/109/commits/612ed013f0b774e2e4cd8694db1ec7c06154734f) -- AEON is a private, secure, untraceable currency.
-
+* [osboot](https://github.com/chinarulezzz/osboot) -- jff attempts to write the os bootloader ^_^
