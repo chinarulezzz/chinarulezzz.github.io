@@ -23,9 +23,9 @@ My [contributions to Wireshark](https://code.wireshark.org/review/gitweb?p=wires
 
 ### Linux Kernel
 
-* [Add ELAN0618 to the list of supported touchpads](https://lore.kernel.org/patchwork/patch/958003/); this ID is used in Lenovo v330 15IKB devices.
+My small [contribution to upstream](https://lore.kernel.org/patchwork/patch/958003/). Add ELAN0618 to the list of supported touchpads; this ID is used in Lenovo v330 15IKB devices.
 
-* A [collection of patches](https://github.com/chinarulezzz/linux-wifi-pentest-patches) for the vanilla linux kernel, useful for pentesters and security engineers.
+And a [collection of patches](https://github.com/chinarulezzz/linux-wifi-pentest-patches) for the vanilla linux kernel, useful for pentesters and security engineers.
 
 ### Pixload
 
@@ -51,9 +51,10 @@ Also written for educational purposes :)
 
 *NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine.*
 
-### chruxzzz
+### CRUX-related stuff
 
 [CRUX ports](https://github.com/chinarulezzz/chruxzzz) supported by me.
+
 ___
 
 
