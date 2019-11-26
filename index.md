@@ -29,7 +29,7 @@ And a [collection of patches](https://github.com/chinarulezzz/linux-wifi-pentest
 
 ### Pixload
 
-A [set of tools](https://github.com/chinarulezzz/pixload) for creating/injecting payloads/backdoors into jpg/gif/png/bmp images.
+A [set of tools](https://github.com/chinarulezzz/pixload) for creating/injecting payloads/backdoors into jpg/gif/png/bmp/webp images.
 
 ### Nmap
 
