@@ -11,7 +11,7 @@ The main purpose of this page is to get in some place everything (most) I'm invo
 | PGP   | [download here](https://raw.githubusercontent.com/chinarulezzz/chinarulezzz.github.io/master/assets/pgp-key.asc) |
 
 
-### <center> [ Projects ] </center>
+### <center> [ main() ] </center>
 
 ### Wireshark
 
@@ -58,7 +58,7 @@ Also written for educational purposes :)
 ___
 
 
-### <center> [ Other Stuff ] </center>
+### <center> [ other_stuff() ] </center>
 
 ### Forkz
 
