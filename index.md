@@ -37,11 +37,33 @@ A [set of tools](https://github.com/chinarulezzz/pixload) for creating/injecting
 
 *[NSE]* Fix for oracle-tns-version which was sending an invalid TNS probe due to a string escaping mixup. [GH#716](https://github.com/nmap/nmap/commit/b30c304a2dc440f17c9a3a25061fae5730492ada)
 
+*[NSE]* [Maintained collection](https://github.com/chinarulezzz/nmap-extra-scripts) of NSE-Scripts that are unmerged to upstream.
+
+*[ZeNMap]* Font-fix [patches](https://github.com/chinarulezzz/zenmap_fixes) for zenmap to follow the system style.
+
 ### Wxp78key
 
 [Tiny keylogger](https://github.com/chinarulezzz/wxp78key) for Windows XP/Vista/7/8 with FTP upload.
 
 It was written for educational purposes.
+
+### Captal
+
+My security auditing and social-engineering research project.
+The main goal is to provide the flexible, modular constructor for Wi-Fi/MITM/Phishing attacks.
+
+See also pentestuff below.
+
+### Asleap
+
+My [improved version of asleap](https://github.com/chinarulezzz/asleap): LEAP/PPTP Attacker.
+Rest in peace, bro.
+
+### gencc
+
+A [simple program](https://github.com/chinarulezzz/gencc) to generate credit card numbers that pass the MOD 10 check (Luhn formula).
+Usefull for testing e-commerce sites.
+During development, surely.
 
 ### SMS
 
@@ -50,6 +72,10 @@ It was written for educational purposes.
 Also written for educational purposes :)
 
 *NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine.*
+
+### Pentestuff
+
+Various [handy scripts](https://github.com/chinarulezzz/pentestuff) to automate penetration testing.
 
 ### CRUX-related stuff
 
