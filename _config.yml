@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 title: /^chinarulez{,3}$/
 logo: /assets/img/logo.jpg
 description: Disassemble your life and find the key.
+github: https://github.com/chinarulezzz
+email: mailto:alexandr.savca89@gmail.com
 defaults:
     -
         scope:
