@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: /^chinarulez{,3}$/
 logo: /assets/img/logo.jpg
+description: Disassemble your life and find the key.
 defaults:
     -
         scope:
