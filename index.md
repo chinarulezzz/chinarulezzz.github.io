@@ -79,7 +79,7 @@ Various [handy scripts](https://github.com/chinarulezzz/pentestuff) to automate 
 
 ### CRUX-related stuff
 
-[CRUX ports](https://github.com/chinarulezzz/chruxzzz) supported by me.
+[Ports](https://github.com/non-yellow-spot), most of which are for security purposes.
 
 ___
 
