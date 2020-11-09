@@ -1,85 +1,101 @@
 # Welcome
 
 Hi, I'm Alexandr Savca **(** *qr/^chinarulez{,3}$/* **)**.
-CRUX Linux user && programmer && FLOSS enthusiast && *qr/KISS|NJ Style|Suckless/* software fan.
+CRUX Linux user && programmer && FLOSS enthusiast &&
+*qr/KISS|NJ Style|Suckless/* software fan.
 
-The main purpose of this page is to get in some place everything (most) I'm involved in (or participated).
+The main purpose of this page is to get in some place everything (most)
+I'm involved in (or participated).
 
 |||
-| EMAIL | drop [**at**] chinarulezzz [**dot**] fun      |
+| EMAIL | alexandrsavca89 [**at**] gmail [**dot**] com  |
 | IRC   | chinarulezzz [**at**] freenode [**dot**] net  |
-| PGP   | [download here](https://raw.githubusercontent.com/chinarulezzz/chinarulezzz.github.io/master/assets/pgp-key.asc) |
-
+| PGP   | [download here][PGP_KEY]                      |
 
 ### <center> [ main() ] </center>
 
-### Wireshark
+### wireshark
 
-My [contributions to Wireshark](https://code.wireshark.org/review/gitweb?p=wireshark.git&a=search&h=HEAD&st=author&s=chinarulezzz%7CAlexandr.Savca&sr=1) (network protocol analyzer).
+Worked on reversing && [improving support][WIRESHARK_COMMITS] of ORACLE (TNS)
+protocol, little bugfixes.
 
-`$ git shortlog --author="Alexandr Savca" --author="chinarulezzz"`
+### linux kernel
 
-*NOTE: Reversing and improving support for ORACLE protocol, little bugfixes*
+* [Add ELAN0618][ELAN0618] to the list of supported touchpads; this ID is used
+in Lenovo v330 15IKB devices.
 
-### Linux Kernel
+* Unofficial, maintained [collection of patches][WIFI_PATCHES] for vanilla
+linux, useful for pentesting purposes.
 
-My small [contribution to upstream](https://lore.kernel.org/patchwork/patch/958003/). Add ELAN0618 to the list of supported touchpads; this ID is used in Lenovo v330 15IKB devices.
+* [NetHunter Linux Kernel][MIDOKERN] for Xiaomi Redmi Note 4/4X.
 
-And a [collection of patches](https://github.com/chinarulezzz/linux-wifi-pentest-patches) for the vanilla linux kernel, useful for pentesters and security engineers.
+### pixload
 
-### Pixload
+[Set of tools][PIXLOAD] for injecting ~~backdoors~~ payloads into
+jpg/gif/png/bmp/webp images.
 
-A [set of tools](https://github.com/chinarulezzz/pixload) for creating/injecting payloads/backdoors into jpg/gif/png/bmp/webp images.
+### nmap
 
-### Nmap
+*[NSE]* [New script][NSE_VULN_POISON] to check for the TNS Poison vulnerability
+in ORACLE DB servers.
 
-*[NSE]* New script [oracle-vuln-tns-poison](https://github.com/chinarulezzz/nmap/commit/a4ca35482aca2011b92a5b3264a3a60cefd895a6) checks for the TNS Poison vulnerability in ORACLE database servers.
+*[NSE]* [GH#716][NSE_TNS_VER_FIX] Fix for `oracle-tns-version` which was
+sending an invalid TNS probe due to a string escaping mixup.
 
-*[NSE]* Fix for oracle-tns-version which was sending an invalid TNS probe due to a string escaping mixup. [GH#716](https://github.com/nmap/nmap/commit/b30c304a2dc440f17c9a3a25061fae5730492ada)
+*[NSE]* Unofficial, [maintained collection][NSE_EXTRA_SCRIPTS] of NSE-Scripts
+that are unmerged to upstream.
 
-*[NSE]* [Maintained collection](https://github.com/chinarulezzz/nmap-extra-scripts) of NSE-Scripts that are unmerged to upstream.
+*[GUI]* Unofficial [font-fix patches][ZENMAP_FONT_FIX] for zenmap to follow
+the system style.
 
-*[ZeNMap]* Font-fix [patches](https://github.com/chinarulezzz/zenmap_fixes) for zenmap to follow the system style.
+### wxp78key
 
-### Wxp78key
+[Tiny keylogger][WXP78KEY] for XP/Vista/7/8 with FTP upload.
 
-[Tiny keylogger](https://github.com/chinarulezzz/wxp78key) for Windows XP/Vista/7/8 with FTP upload.
+### asleap
 
-It was written for educational purposes.
+[Improved version][ASLEAP] of asleap: LEAP/PPTP Attacker:
 
-### Captal
+- Fixed LEAP Attacking
 
-My security auditing and social-engineering research project.
-The main goal is to provide the flexible, modular constructor for Wi-Fi/MITM/Phishing attacks.
+- Added MSCHAP-v2 authentication verifier
 
-See also pentestuff below.
+- Added bruteforce charset option
 
-### Asleap
-
-My [improved version of asleap](https://github.com/chinarulezzz/asleap): LEAP/PPTP Attacker.
-Rest in peace, bro.
+- Added username option for MSCHAP-v2 Challenge/Response attack
 
 ### gencc
 
-A [simple program](https://github.com/chinarulezzz/gencc) to generate credit card numbers that pass the MOD 10 check (Luhn formula).
-Usefull for testing e-commerce sites.
-During development, surely.
+A [simple tool][GENCC] to generate credit card numbers that pass the
+MOD 10 check (Luhn formula).
 
-### SMS
+### captal
 
-[SMS sender](https://github.com/chinarulezzz/sms) (**!** flooder) for [Moldcell](http://www.moldcell.md/) and [Orange](https://www.orange.md/), my national mobile operators.  It breaks theirs captcha's on the WEB portals, and send SMS ([via TOR](https://www.torproject.org/)).
+Security auditing and social-engineering [research project][CAPTAL].
+The main goal is to provide the flexible, modular constructor for
+Wi-Fi/MITM/Phishing && Layer2 attacks.
 
-Also written for educational purposes :)
+See also **pentestuff** below.
 
-*NOTE: AFAIK, at now Orange uses javascript scripts to generate user content. That breaks Orange sms sending.  I have no time and desire to add support of the javascript engine.*
+### pentestuff
 
-### Pentestuff
+Various [handy scripts][PENTESTUFF] to automate penetration testing.
 
-Various [handy scripts](https://github.com/chinarulezzz/pentestuff) to automate penetration testing.
+### sms
 
-### CRUX-related stuff
+[SMS sender][SMSSENDER] for <moldcell.md> and <orange.md>, my national
+mobile operators.
 
-[Ports](https://github.com/non-yellow-spot), most of which are for security purposes.
+It breaks their captcha's on the web portals, and send sms via <torproject.org>.
+
+*NOTE: AFAIK, at now Orange uses js to generate user content.
+That breaks Orange sms sending. I have no time and desire to add support of
+the js engine.*
+
+### crux
+
+[Ports collection][VCCRUX], most of which are for security purposes.
+
 
 ___
 
@@ -88,26 +104,87 @@ ___
 
 ### Forkz
 
-* [refluxion](https://github.com/chinarulezzz/refluxion) -- MITM WPA{,2} attack tool. The main difference is that refluxion allows to deauthenticate (by "Handshake Snooper" or "Captive Portal" attack) specifiс client of Access Point. Sometimes it's necessary to not disconnecting all clients from the AP, but only one (the most vulnerable from the point of view of Social Engineering).
+* [refluxion][REFLUXION] -- MITM WPA{,2} attack tool. The main difference from
+fluxion is that refluxion allows to deauthenticate (by "Handshake Snooper" or
+"Captive Portal" attack) specific client of Access Point. Sometimes
+it's necessary to not disconnecting all clients from the AP, but only one
+(the most vulnerable from the point of view of Social Engineering).
 
-* [IPObfuscator](https://github.com/chinarulezzz/IPObfuscator) -- A simple tool to convert the IP to different obfuscated forms for pentesting purposes.
+* [ipobfuscator][IPOBFUSCATOR] -- Convert the IP address to different
+obfuscated forms for pentesting purposes.
 
-* [spoofcheck](https://github.com/chinarulezzz/spoofcheck) -- A program that checks if a domain can be spoofed from. The program checks SPF and DMARC records for weak configurations that allow spoofing.
+* [spoofcheck][SPOOFCHECK] -- Checks if a domain can be spoofed from.
+The program checks SPF and DMARC records for weak configurations that allow
+spoofing.
 
-* [active-cve-check](https://github.com/chinarulezzz/active-cve-check) -- checks a list of packages against the "active" (not yet patched) CVE's as listed in the Ubuntu CVE Tracker.
+* [active-cve-check]CVECHECKER] -- Checks a list of packages against the
+"active" (not yet patched) CVE's as listed in the Ubuntu CVE Tracker.
 
-My linux DE:
+* [karma] -- Find leaked emails with your passwords. The sources and the
+author's GitHub profile was removed. So... I've adopted it.
 
-* [dwm](https://github.com/chinarulezzz/dwm-6.0) -- extremely fast, small, and dynamic window manager for X. Personal fork.
+##### DE
 
-* [gmusicbrowser](https://github.com/chinarulezzz/gmusicbrowser-crz) -- my version of gmusicbrowser with some [patches](https://github.com/chinarulezzz/gmusicbrowser_patches).
+* [dwm][DWM60CRZ] -- Window manager for X.
 
-### Softz
+* [dmenu][DMENU45CRZ] -- Dynamic menu for X.
 
-* [repqlite](https://github.com/chinarulezzz/repqlite) -- this is a utility for replicating SQLite DB's through monitoring filesystem events (inotify).  Wrote for learning SQLite internals / programming under Linux.
+* [xkbswitch][XKBSWTCH] -- Get/Set current keyboard layout.
 
-* [xkbswitch](https://github.com/chinarulezzz/xkbswitch) -- utility to set/get current keyboard layout in Xorg.  I wrote it for dmenu-like software, to switch to latin keyboard layout before starting input, and restore the previous layout after.
+* [jukebox][JUKEBOX] -- The gmusicbrowser1.15 fork.
 
-* [xbattbar-se](https://github.com/chinarulezzz/xbattbar-se) -- suckless battery/UPS/AC/DC power watcher for X11.
+* [Trinity-GTK-Theme][TRIGTK] -- Trinity GTK Theme.
 
-* [osboot](https://github.com/chinarulezzz/osboot) -- jff attempts to write the os bootloader ^_^
+* [Trinity-Icon-Theme][TRIICON] -- Trinity Icon Theme.
+
+* [Trinity-Extra-Theme][TRIEXTRA] -- Trinity Theme Extra: configs/patches
+for various software, etc.
+
+* [logbot][LOGBOT] -- Hexchat plugin to open the Freenode chat logs of the
+current context.
+
+##### whatnot
+
+* [repqlite][REPQLITE] -- Replicating SQLite DBs through monitoring filesystem
+events (inotify). Wrote for learning SQLite internals / programming under Linux.
+
+* [osboot][OSBOOT] -- jff attempts to write the OS bootloader ^_^
+
+<!-- LINKS -->
+
+[PGP_KEY]: https://raw.githubusercontent.com/chinarulezzz/chinarulezzz.github.io/master/assets/pgp-key.asc
+[WIRESHARK_COMMITS]: https://code.wireshark.org/review/gitweb?p=wireshark.git&a=search&h=HEAD&st=author&s=chinarulezzz%7CAlexandr.Savca&sr=1
+[ELAN0618]: https://lore.kernel.org/patchwork/patch/958003/
+[WIFI_PATCHES]: https://github.com/chinarulezzz/linux-wifi-pentest-patches
+[MIDOKERN]: https://github.com/chinarulezzz/mido
+[PIXLOAD]: https://github.com/chinarulezzz/pixload
+[NSE_VULN_POISON]: https://github.com/chinarulezzz/nmap/commit/a4ca35482aca2011b92a5b3264a3a60cefd895a6
+[NSE_TNS_VER_FIX]: https://github.com/nmap/nmap/commit/b30c304a2dc440f17c9a3a25061fae5730492ada
+[NSE_EXTRA_SCRIPTS]: https://github.com/chinarulezzz/nmap-extra-scripts
+[ZENMAP_FONT_FIX]: https://github.com/chinarulezzz/zenmap_fixes
+[WXP78KEY]: https://github.com/chinarulezzz/wxp78key
+[ASLEAP]: https://github.com/chinarulezzz/asleap
+[GENCC]: https://github.com/chinarulezzz/gencc
+[CAPTAL]: https://github.com/chinarulezzz/captal
+[PENTESTUFF]: https://github.com/chinarulezzz/pentestuff
+[SMSSENDER]: https://github.com/chinarulezzz/sms
+[VCCRUX]: https://github.com/non-yellow-spot/vccrux
+[REFLUXION]: https://github.com/chinarulezzz/refluxion
+[IPOBFUSCATOR]: https://github.com/chinarulezzz/IPObfuscator
+[SPOOFCHECK]: https://github.com/chinarulezzz/spoofcheck
+[CVECHECKER]: https://github.com/chinarulezzz/active-cve-check
+[KARMA]: https://github.com/chinarulezzz/karma
+[DWM60CRZ]: https://github.com/chinarulezzz-de/dwm-6.0-chinarulezzz
+[DMENU45CRZ]: https://github.com/chinarulezzz-de/dmenu-4.5-chinarulezzz
+[XKBSWTCH]: https://github.com/chinarulezzz-de/xkbswitch
+[TRIGTK]: https://github.com/chinarulezzz-de/Trinity-GTK-Theme
+[TRIICON]: https://github.com/chinarulezzz-de/Trinity-Icon-Theme
+[TRIEXTRA]: https://github.com/chinarulezzz-de/Trinity-Extra-Theme
+[JUKEBOX]: https://github.com/chinarulezzz-de/jukebox
+[LOGBOT]: https://github.com/chinarulezzz-de/logbot
+[REPQLITE]: https://github.com/chinarulezzz/repqlite
+[OSBOOT]: https://github.com/chinarulezzz/osboot
+
+<!--
+vim:sw=2:ts=2:sts=2:et:cc=80
+-->
