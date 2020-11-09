@@ -83,10 +83,11 @@ Various [handy scripts][PENTESTUFF] to automate penetration testing.
 
 ### sms
 
-[SMS sender][SMSSENDER] for <moldcell.md> and <orange.md>, my national
-mobile operators.
+[SMS sender][SMSSENDER] for [moldcell](moldcell.md) and [orange](orange.md),
+my national mobile operators.
 
-It breaks their captcha's on the web portals, and send sms via <torproject.org>.
+It breaks their captcha's on the web portals, and send sms via
+[TOR](torproject.org).
 
 *NOTE: AFAIK, at now Orange uses js to generate user content.
 That breaks Orange sms sending. I have no time and desire to add support of
