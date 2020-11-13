@@ -4,13 +4,22 @@ logo: /assets/img/logo.jpg
 description: Disassemble your life and find the key.
 
 author:
-  github: https://github.com/chinarulezzz
-  mail: mailto:alexandr.savca89@gmail.com
+  name: "Alexandr Savca"
+  avatar: /assets/img/logo.jpg
+  location: "In the middle of nowhere"
+  links:
+    - label: "Github"
+      url: https://github.com/chinarulezzz
+    - label: "Mail"
+      url: mailto:alexandr.savca89@gmail.com
 
 defaults:
-    -
-        scope:
-            path: ""
-        values:
-            layout: "default"
+
+  # _pages
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: "default"
 
