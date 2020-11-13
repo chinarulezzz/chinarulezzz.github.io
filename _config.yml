@@ -14,12 +14,11 @@ author:
       url: mailto:alexandr.savca89@gmail.com
 
 defaults:
-
   # _pages
-
   - scope:
       path: ""
       type: pages
     values:
-      layout: "default"
+      layout: "single"
+      author_profile: true
 
