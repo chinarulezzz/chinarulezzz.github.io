@@ -1,0 +1,122 @@
+ ┌──[··ABOUT··]───────────────────────────────────────────────────────────────┐
+ │                                                                            │
+ │    Alexandr Savca                                                          │
+ │                                                                            │
+ │    E-Mail      ->  alexandr.savca89 at gmail.com                           │
+ │    LinkedIn    ->  linkedin.com/in/alexandr-savca89                        │
+ │┐   Website     ->  chinarulezzz.github.io                                 ┌│
+ └┘   IRC chat    ->  chinarulezzz at freenode                               └┘
+ ┌┐                                                                          ┌┐
+ └────────────────────────────────────────────────────────────────────────────┘
+
+ ┌──[··EXPERIENCE··]──────────────────────────────────────────────────────────┐
+ │                                                                            │
+ │   Information Security Engineer / Freelance                                │
+ │   Jan 2020 - Present                                                       │
+ │                                                                            │
+ │   - Perform penetration testing and vulnerability research;                │
+ │                                                                            │
+ │   - Develop attack/verification tools and exploits for discovered          │
+ │     vulnerabilities;                                                       │
+ │                                                                            │
+ │   - Develop and maintain standard operating process documentations         │
+ │     to enable knowledge transfer, cross-training, and disaster recovery    │
+ │     needs;                                                                 │
+ │                                                                            │
+ │   - Improve security technology operation and integration through          │
+ │     custom scripts development;                                            │
+ │                                                                            │
+ │   - Perform scanning, patching, and remediation activities;                │
+ │                                                                            │
+ │   - Develop and maintain software-patches to improve security defense      │
+ │     and analysis (Linux Kernel, Nmap, Aircrack-ng, etc)                    │
+ │                                                                            │
+ │   - Maintain security tools for the Linux-based Operation System;          │
+ │┐                                                                          ┌│
+ ├┘                                                                          └┤
+ │                                                                            │
+ │   Information Security Engineer / Salt Edge - Open Banking API Platform    │
+ │   Jan 2018 - Nov 2019 (1y 6m)                                              │
+ │                                                                            │
+ │   - Perform testing of security-sensitive projects and solutions           │
+ │     delivery, manual code inspection, threat modeling, and penetration     │
+ │     testing of internal web applications to identify vulnerabilities and   │
+ │     security defects;                                                      │
+ │                                                                            │
+ │   - Support the implementation and enforcement of secure design            │
+ │     principles according to policies, standards, and patterns of           │
+ │     Information Security;                                                  │
+ │                                                                            │
+ │   - Perform secure code/design review, assist to mitigate vulnerabilities  │
+ │     and attack vectors in web applications;                                │
+ │                                                                            │
+ │   - Conduct white box security testing to assess and validate              │
+ │     application security;                                                  │
+ │                                                                            │
+ │   - Define, maintain, and enforce application security best practices;     │
+ │                                                                            │
+ │   - Develop and conduct the Bug Bounty program;                            │
+ │                                                                            │
+ │┐                                                                          ┌│
+ ├┘                                                                          └┤
+ │   System Programmer / Freelance                                            │
+ │   Sep 2016 - Feb 2017 (6m)                                                 │
+ │                                                                            │
+ │   - Deep Packet Introspection, Reverse engineering                         │
+ │   - Writing traffic analyzer plugins for Bro/Zeek IDS for various          │
+ │     protocols;                                                             │
+ │   - Reversing Oracle TNS Protocol;                                         │
+ │                                                                            │
+ │┐                                                                          ┌│
+ ├┘                                                                          └┤
+ │                                                                            │
+ │   System Administrator / Freelance                                         │
+ │   2012 - Jan 2017 (5y)                                                     │
+ │                                                                            │
+ │   Environment: GNU/Linux                                                   │
+ │                                                                            │
+ │   - Configuration of Network Protocols;                                    │
+ │                                                                            │
+ │   - Software installation and configuration;                               │
+ │                                                                            │
+ │   - Created scripts for monitor systems and automation of daily tasks      │
+ │     and customer requests;                                                 │
+ │                                                                            │
+ │   - Installation and configuration of Security Packages;                   │
+ │                                                                            │
+ │   - Tuning Kernel Parameters;                                              │
+ │                                                                            │
+ │   - Install patches and upgrading of O/S as and when required;             │
+ │                                                                            │
+ │   - Maintain local O/S applications and patch depots;                      │
+ │                                                                            │
+ │   - Implement Backup/Recovery strategies;                                  │
+ │                                                                            │
+ │   - Network traffic analysis and recommendation for performance            │
+ │     improvement;                                                           │
+ │                                                                            │
+ │   - Maintain DNS, VPN, Web, DB & Mail Servers;                             │
+ │                                                                            │
+ │   - Develop of low-level tools in C, higher level interfaces using         │
+ │     Tcl/Tk, shell programming and Perl;                                    │
+ │                                                                            │
+ ├┐                                                                          ┌┤
+ └────────────────────────────────────────────────────────────────────────────┘
+
+ ┌──[··EDUCATION··]───────────────────────────────────────────────────────────┐
+ │                                                                            │
+ │  Master's degree, Database Administration and WEB Technologies             │
+ │  2014 - 2016                                                               │
+ │                                                                            │
+ │  - Defended the Master thesis "SQLite replicator for UNIX O/S";            │
+ │                                                                            │
+ ├┘                                                                          └┤
+ │  Master's degree, Psychological Counseling                                 │
+ │  2012 - 2014                                                               │
+ │                                                                            │
+ │  - Defended the Master thesis "Coping Behaviour of Adolescents with        │
+ │    Different Views on Educational Tactics of the Mother in Complete        │
+ │    and Incomplete Families";                                               │
+ ├┐                                                                          ┌┤
+ └────────────────────────────────────────────────────────────────────────────┘
+                                                                    nfo–gN/iCE!
