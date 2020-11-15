@@ -17,7 +17,7 @@
  │ Name                              │ Address                            │
  │ ──────────────────────────────────┼─────────────────────────────────── │
  │ EMAIL                             │ alexandr.savca89@gmail.com         │
- │ GPG-KEY                           │ chinarulezzz.github.io/pgp-key     │
+ │ GPG-KEY                           │ chinarulezzz.github.io/gpg.asc     │
  │ LINKEDIN                          │ linkedin.com/in/alexandr-savca89   │
  │ GITHUB                            │ github.com/chinarulezzz            │
  │ IRC                               │ freenode.net/chinarulezzz          │
@@ -146,6 +146,7 @@
  │    for Wi-Fi/MITM/Phishing && Layer2 attacks:                          │
  │    github.com/chinarulezzz/captal                                      │
  │                                                                        │
+ │                                                                        │
  │ ──────────────────────────────────┼─────────────────────────────────── │
  │                                                                        │
  │                                                                        │
@@ -220,6 +221,7 @@
  │    - Add prefix/postfix option                                         │
  │    - Remove junk, add the possibility the generate wordlists           │
  │                                                                        │
+ │                                                                        │
  │ ──────────────────────────────────┼─────────────────────────────────── │
  │                                                                        │
  │                                                                        │
@@ -261,6 +263,7 @@
  │    The sources and the author's GitHub profile was removed; So ...     │
  │    I've adopted that program;                                          │
  │                                                                        │
+ │                                                                        │
  │ ──────────────────────────────────┼─────────────────────────────────── │
  │                                                                        │
  │                                                                        │
@@ -269,6 +272,7 @@
  │ └─ Window manager for X                                           FORK ┤
  │    There are too many changes to describe them here;                   │
  │    github.com/chinarulezzz-de/dwm-6.0-chinarulezzz                     │
+ │                                                                        │
  │                                                                        │
  │ ──────────────────────────────────┼─────────────────────────────────── │
  │                                                                        │
@@ -288,6 +292,7 @@
  │    - dmenu_run: sh fix                                                 │
  │    - config.mk: make CFLAGS additional                                 │
  │    - update README                                                     │
+ │                                                                        │
  │                                                                        │
  │ ──────────────────────────────────┼─────────────────────────────────── │
  │                                                                        │
