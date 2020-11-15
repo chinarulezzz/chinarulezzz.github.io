@@ -1,0 +1,419 @@
+#!/usr/bin/perl
+# chinarulezzz homepage generator
+$HTML = $0 !~ 'index.txt';
+$HEAD = <<EOF;
+<html>
+<head>
+<meta charset="UTF-8">
+<title>chinarulezzz</title>
+<link rel="stylesheet" href="terminus.ttf">
+<style>
+a { text-decoration: none; }
+body { font-family: Terminus (TTF), Fallback, monospace; font-size: 12px; }
+</style>
+</head>
+<body>
+<pre>
+EOF
+$TAIL = <<EOF;
+</pre>
+</body>
+</html>
+EOF
+print $HEAD if $HTML;
+while (<DATA>) {
+  if ($HTML) {
+    s| (chinarulezzz\.github\.io/(.*?)\s)  |<a href="$2">$1</a>|xg;
+    s| (github\.com/.*?\s)                 |<a href="https://$1">$1</a>|xg;
+    s| (lore\.kernel\.org/.*?\s)           |<a href="https://$1">$1</a>|xg;
+    s| (linkedin\.com/in/.*?\s)            |<a href="https://$1">$1</a>|xg;
+    s| (alexandr\.savca89\@gmail\.com\s)   |<a href="mailto:$1">$1</a>|xg;
+  }
+  print;
+}
+print $TAIL if $HTML;
+
+
+__DATA__
+
+    ┌──────────────────────────┤  WELCOMEZ  ├──────────────────────────┐
+ ┌──■──────────────────────────────────────────────────────────────────■──┐
+ │                                                                        │
+ │  Hi, I'm Alexandr Savca  qx/^chinarulez{,3}$/.                         │
+ │                                                                        │
+ │  CRUX User, Coder, FLOSS enthusiast, KISS-Suckless-WorseIsBetter       │
+ │  software fun.                                                         │
+ │                                                                        │
+ │  The main purpose of this page is to get in some place everything      │
+ │  (most) I'm involved in (or participated).                             │
+ │                                                                        │
+ └─────────────────────────────┬────────────┬─────────────────────────────┘
+    ┌──────────────────────────┼  CONTACTZ  ┼──────────────────────────┐
+ ┌──■──────────────────────────┴────────────┴──────────────────────────■──┐
+ │                                                                        │
+ │ Name                              │ Address                            │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │ EMAIL                             │ alexandr.savca89@gmail.com         │
+ │ GPG-KEY                           │ chinarulezzz.github.io/gpg.asc     │
+ │ LINKEDIN                          │ linkedin.com/in/alexandr-savca89   │
+ │ GITHUB                            │ github.com/chinarulezzz            │
+ │ IRC                               │ freenode.net/chinarulezzz          │
+ │                                                                        │
+ └─────────────────────────────┬────────────┬─────────────────────────────┘
+    ┌──────────────────────────┼  PROJECTZ  ┼──────────────────────────┐
+ ┌──■──────────────────────────┴────────────┴──────────────────────────■──┐
+ │                                                                        │
+ ├─┬─[ WIRESHARK ]────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ git shortlog --author=chinarulezzz --author='Alexandr Savca'        ┤
+ │                                                                        │
+ │    - packet-tns.c: add TNS_TYPE_DATA functions dissection              │
+ │    - packet-tns.c: add Set Protocol dissection                         │
+ │    - packet-tns.c: Oracle 12c packet length fix                        │
+ │    - packet-tns.c: add Version and Services parsing for SNS messages   │
+ │    - packet-tns.c: Add Version2 (SQLNET_RETURN_OPI_PARAM)              │
+ │    - packet-tns.c: Add Sesskey, Auth (SQLNET_RETURN_OPI_PARAM)         │
+ │    - Fix cppcheck warnings                                             │
+ │    - packet-tns.c: add TODO to TNS Refuse packet dissector             │
+ │    - packet-pcep.c: opposite inner 'if' condition leads to a dead ...  │
+ │    - fix link speed indication                                         │
+ │    - cppcheck.sh: improve script; add new option: colorize html output │
+ │    - remove redundant break statement                                  │
+ │    - fix missing parenthesis in 'if' statement                         │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ LINUX KERNEL ]─────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ ├─ git shortlog --author='Alexandr Savca'                              ┤
+ │ │                                                                      │
+ │ │  - Input: elan_i2c - add ELAN0618 (Lenovo v330 15IKB) ACPI ID        │
+ │ │    lore.kernel.org/patchwork/patch/958003/                           │
+ │ │                                                                      │
+ │ │                                                                      │
+ │ ├─ Maintained collection of patches, useful for pentesting purposes    ┤
+ │ │  github.com/chinarulezzz/linux-wifi-pentest-patches                  │
+ │ │                                                                      │
+ │ │                                                                      │
+ │ └─ NetHunter Linux Kernel for Xiaomi Redmi Note 4/4X                   ┤
+ │    github.com/chinarulezzz/mido                                        │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ PIXLOAD ]──────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Set of tools for injecting payloads into jpg/gif/png/bmp/webp       ┤
+ │    github.com/chinarulezzz/pixload                                     │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ NMAP ]─────────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ ├─ NSE: Check for the TNS Poison vulnerability:                        │
+ │ │  github.com/nmap/nmap/pull/718                                       │
+ │ │                                                                      │
+ │ │                                                                      │
+ │ ├─ NSE: Fix for the oracle-tns-version which was sending an invalid    │
+ │ │  TNS Probe due to a string escaping mixup:                           │
+ │ │  commit:b30c304a2dc440f17c9a3a25061fae5730492ada                     │
+ │ │                                                                      │
+ │ │                                                                      │
+ │ ├─ NSE: Maintained collection of scripts that are unmerged to upstream │
+ │ │  github.com/chinarulezzz/nmap-extra-scripts                          │
+ │ │                                                                      │
+ │ │                                                                      │
+ │ └─ GUI: Maintained font-fix patches for zenmap to follow the system    │
+ │    style: github.com/chinarulezzz/zenmap_fixes                         │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ AIRCRACK-NG ]──────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Add manufacturer column to the client list                          ┤
+ │    github.com/non-yellow-spot/vccrux/tree/3.5/aircrack-ng              │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ WXP78KEY ]─────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Tiny keylogger for XP/Vista/7/8 with FTP upload                     ┤
+ │    github.com/chinarulezzz/wxp78key                                    │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ ASLEAP ]───────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Improved version of asleap                                     FORK ┤
+ │    github.com/chinarulezzz/asleap                                      │
+ │                                                                        │
+ │    - Fixed LEAP Attacking;                                             │
+ │    - Added MSCHAP-v2 authentication verifier;                          │
+ │    - Added bruteforce charset option;                                  │
+ │    - Added username option for MSCHAP-v2 Challenge/Response attack;    │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ GENCC ]────────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Generate credit card numbers that pass the MOD 10 check (Luhn)      │
+ │    github.com/chinarulezzz/gencc                                       │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ CAPTAL ]───────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Security auditing and social-engineering research project;          │
+ │    The main goal is to provide the flexible, modular constructor       │
+ │    for Wi-Fi/MITM/Phishing && Layer2 attacks:                          │
+ │    github.com/chinarulezzz/captal                                      │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ PENTESTUFF ]───────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Various handy scripts to automate captal attacks and pentesting     │
+ │    in general: github.com/chinarulezzz/pentestuff                      │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ SMS ]──────────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Send SMS via Moldcell and Orange (my national mobile operators);    │
+ │    Break their captcha on the web portals, and send SMS through TOR;   │
+ │    github.com/chinarulezzz/sms                                         │
+ │                                                                        │
+ │    AFAIK, at now Orange uses js to generate user content;              │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ CRUX ]─────────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Ports collection: github.com/non-yellow-spot/vccrux                 │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ XKBSWITCH ]────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Automatize switching keyboard layout                                │
+ │    github.com/chinarulezzz-de/xkbswitch                                │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ LOGBOT ]───────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Hexchat plugin to open the Freenode chat logs of the current tab    │
+ │    context: github.com/chinarulezzz-de/logbot                          │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ REFLUXION ]────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ MITM WPA{,2} attack tool                                       FORK ┤
+ │    github.com/chinarulezzz/refluxion                                   │
+ │                                                                        │
+ │    The main difference from FLUXION is that my fork allows to          │
+ │    deauthenticate (by "Handshake Snooper" or "Captive Portal" attack)  │
+ │    specific client of Access Point; Sometimes it's necessary to not    │
+ │    disconnecting all clients from the AP, but only one (the most       │
+ │    vulnerable from the point of view of Social Engineering);           │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ IPOBFUSCATOR ]─────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Convert the IP to different obfuscated forms                   FORK ┤
+ │    github.com/chinarulezzz/IPObfuscator                                │
+ │                                                                        │
+ │    Useful for testing bogon filtering:                                 │
+ │    - Add prefix/postfix option                                         │
+ │    - Remove junk, add the possibility the generate wordlists           │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ SPOOFCHECK ]───────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Check SPF and DMARC records for weak configuration             FORK ┤
+ │    github.com/chinarulezzz/spoofcheck                                  │
+ │                                                                        │
+ │    Diff:                                                               │
+ │    - port to python3                                                   │
+ │    - fix typo #5, thanks to @ankane                                    │
+ │    - little code refactoring                                           │
+ │    - update README.md                                                  │
+ │    - fix output_info on white terminals                                │
+ │    - add Dockerfile                                                    │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ ACTIVE-CVE-CHECK ]─────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Check a list of packages against the not yet patched           FORK ┤
+ │    in the Ubuntu CVE Tracker;                                          │
+ │    github.com/chinarulezzz/active-cve-check                            │
+ │                                                                        │
+ │    Diff:                                                               │
+ │    - switch ubuntu-cve-tracker to git repo                             │
+ │    - fix package name detection                                        │
+ │    - remove redundant code                                             │
+ │    - update README.md                                                  │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ KARMA ]────────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Find leaked emails with your passwords                         FORK ┤
+ │    github.com/chinarulezzz/karma                                       │
+ │                                                                        │
+ │    The sources and the author's GitHub profile was removed; So ...     │
+ │    I've adopted that program;                                          │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ DWM60 ]────────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Window manager for X                                           FORK ┤
+ │    There are too many changes to describe them here;                   │
+ │    github.com/chinarulezzz-de/dwm-6.0-chinarulezzz                     │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ DMENU45 ]──────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Dynamic menu for X                                             FORK ┤
+ │    github.com/chinarulezzz-de/dmenu-4.5-chinarulezzz                   │
+ │                                                                        │
+ │    Diff:                                                               │
+ │    - initial commit: dmenu 4.5                                         │
+ │    - add xft support                                                   │
+ │    - follow my dwm border style                                        │
+ │    - dmenu_run: use xkbswitch to remember kbd layout                   │
+ │    - config.mk: add BSD support                                        │
+ │    - dmenu.c: stylefix                                                 │
+ │    - dmenu_run: sh fix                                                 │
+ │    - config.mk: make CFLAGS additional                                 │
+ │    - update README                                                     │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ JUKEBOX ]──────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Gmusicbrowser 1.15.1 fork                                      FORK ┤
+ │    There are too many changes to describe them here;                   │
+ │    github.com/chinarulezzz-de/jukebox                                  │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ TRINITY ]──────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ ├─ GTK2/3 Theme                                                   FORK ┤
+ │ │  github.com/chinarulezzz-de/Trinity-GTK-Theme                        │
+ │ │                                                                      │
+ │ │                                                                      │
+ │ ├─ Icon Theme                                                          │
+ │ │  github.com/chinarulezzz-de/Trinity-Icon-Theme                  FORK ┤
+ │ │                                                                      │
+ │ │                                                                      │
+ │ └─ Extra Theme                                                         │
+ │    github.com/chinarulezzz-de/Trinity-Extra-Theme                      │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ REPQLITE ]─────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ Replicating SQLite DB through monitoring FS events (inotify)        │
+ │    github.com/chinarulezzz/repqlite                                    │
+ │                                                                        │
+ │    Wrote for learning SQLite internals / programming under Linux;      │
+ │                                                                        │
+ │                                                                        │
+ │ ──────────────────────────────────┼─────────────────────────────────── │
+ │                                                                        │
+ │                                                                        │
+ ├─┬─[ OSBOOT ]───────────────────────────────────────────────────────────│
+ │ │                                                                      │
+ │ └─ "Just for fun" attempts to write the OS bootloader                  │
+ │    github.com/chinarulezzz/osboot                                      │
+ │                                                                        │
+ │                                                                        │
+ └─────────────────────────────┬────────────┬─────────────────────────────┘
+    ┌──────────────────────────┼  PRIVACYZ  ┼──────────────────────────┐
+ ┌──■──────────────────────────┴────────────┴──────────────────────────■──┐
+      $ wget -qO- chinarulezzz.github.io | sed -n 's/^ *//;364,394p'
+
+      -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+      mQENBFq+QgQBCADW52hQ0aRC/tqvQPPPSCdbBFjKPKKrS1l1sbjOtQKLoZwfsnuu
+      5a8UBgJzpTBBrHKz5ackfIBSmmsGJ33hRzDwwJJHeG3W1e2Y5alEmD+Yc/ck9Lgf
+      ed8Y1XKHp8exCy71/bUDWmoXHficWFVsGnlrVOeEZ9drF836dbQ2FDSmeLh+m+0X
+      ifI5+7eI8U4Tf5JrbacqqQnsJBB3EfnORi0hvvyYZsFKUF1ibHVDGpMgHifIoh9t
+      B/sAYgz0wXa9v4s2U2zMXymg/rirpAs+UfewBkaE4RiQHUjqnKYSWqXpT7uuyPNl
+      Dm1ChyPbmJ20rTi1SDNrhvRWU+agExaKUqXrABEBAAG0OkFsZXhhbmRyIFNhdmNh
+      IChjaGluYXJ1bGV6enopIDxhbGV4YW5kci5zYXZjYTg5QGdtYWlsLmNvbT6JAU4E
+      EwEIADgWIQSy17a4VVrhcgmkZdVZ7BmG+9kCzwUCWr5CBAIbAwULCQgHAgYVCgkI
+      CwIEFgIDAQIeAQIXgAAKCRBZ7BmG+9kCz/CyB/4/G6rZFrc38jzhyaN+QwSZ/sFn
+      KtN7Qx3CAA0qNWDeBmPPwtyDC0s/n/3BtNFztJzeuoA5LSfBknJPchMu/N7qpmo/
+      kotQuUn53vv3SJwM22nN4Dtr9k/LWgY2EkovI5gGAMlxZuoD/mFujZzPq21QzgzG
+      Sm2qDTd1d9Ig/NiQ7S7yuPcyPKbl/4BwQd2zKB5LyNsmnoMxCFbc7Qhm+CS4OLr2
+      wPPbodXeG3blJSTKvcUbpU4VZIrpdbUssS8YvPvpmy/M3joPYaAKa5iCBWlT9my2
+      GPwbjQhISV/8NH9FQgAZi3QWotJ25tauI54Lf3cDbfRtThvXQjXbTJ78bY1vuQEN
+      BFq+QgQBCADLpvR4D0t1DUd9/8PHRzAL9ZaG3WQhXuTcydbCvTNNoepMakG+yM8E
+      1gjVuGz3fGPM5P92f59sQLWpqeHjVRtaFKn3f8O+ewhrArgAmP6WrzBIK/ovcXQ0
+      LjTo57yUQW1X1GWtHOXTvl4DCALr6KG5zcw8dpreJHAjIS1+4LRWs/vAJRUt2ORP
+      4JYanSwKn8ANshchMDkq+nlpssUren/PcAZ5oXlZM25zZIYKONP1SHby48v6v8jQ
+      kNa1f6UIkop4of0vt0WhKsoOlgTqO532UuDNorpktQi/TXgj1emn+HMCOAhMtPuW
+      8dd8HAu9Tgl25waear9gSGNPkdK15FZpABEBAAGJATYEGAEIACAWIQSy17a4VVrh
+      cgmkZdVZ7BmG+9kCzwUCWr5CBAIbDAAKCRBZ7BmG+9kCzzI3B/0TH4ikTcqHZAk/
+      SSizGKDXIoz5IkXkTcFo1lzIZabqIiT54vxl6fsPv5H/8cn3JUrU9aZKoLHh30kN
+      j0HhVcdltKh6nGnQnuYgRWhoEjE1PoGXAOlz4PTlc23jM7JFjynIuF/0jEnMk2AG
+      k3L+kDS7ReTAHQTSbJYLJwP2vDlEZ60b8xzXjYWRdDZwttfad0SkNcSAVYzbF3Gn
+      t6HHi81Ssqv9l5zAtxnFn7thoLegRFta+LnyIkEqkg8Z3VfHUAOuMO3W+bGDfAix
+      JnGdDlc2OCEcWoZVIuOiqEryff8wbgz5M0PVbby6y4Zop73LCJFm3Kz2n/jJOMJd
+      lgLES/Ed
+      =U0Dk
+      -----END PGP PUBLIC KEY BLOCK-----
