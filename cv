@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # chinarulezzz cv page generator
-$HTML = $0 !~ 'cv.txt';
+$HTML = $ARGV[0] eq 'cv.html';
 $HEAD = <<EOF;
 <html>
 <head>

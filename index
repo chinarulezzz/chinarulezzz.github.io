@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # chinarulezzz homepage generator
-$HTML = $0 !~ 'index.txt';
+$HTML = $ARGV[0] eq 'index.html';
 $HEAD = <<EOF;
 <html>
 <head>
